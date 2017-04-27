@@ -1,0 +1,99 @@
+/***************/
+/* GENERAL ZONE */
+/***************/
+
+html, body{
+	height: 100%;
+	background-image: url("data:image/jpeg;base64,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");
+	background-size:cover;
+}
+
+.heading-title-menu{
+	border-radius: 5px 50%;
+   /* background: #73AD21;*/
+   border: 2px solid red;
+    padding: 20px;
+    margin: 30px 15px 0 15px:	
+    width: 200px;
+    height: 25px; 
+	margin-top:20px;
+	text-align:center;
+	background:radial-gradient(white , red);
+	
+	
+}
+
+/***************/
+/* HEADER ZONE */
+/***************/
+
+.header {
+	background-color: lightblue;
+}
+/***************/
+/* CONTENT ZONE */
+/***************/
+.content-wrapper .sidebar-left {
+	background-color: lightgreen;
+	float: left;
+	height: 100%;
+	width: 10%;
+}
+.content-wrapper .sidebar-left a {
+	display: block;
+	
+}
+.content-wrapper .content-main {
+	background-color: burlywood;
+	float: left;
+	height: 100%;
+	width: 80%;
+}
+
+.content-wrapper .content-main .heading-title-content{
+	border-radius: 5px 50%;
+    background: linear-gradient(white,limegreen);
+    border: 2px solid red;
+    padding: 20px;
+    margin: 30px 15px 0 15px:	
+    width:20px;
+    height: 25px; 
+	text-align:center;
+	margin-top:20px;
+	text-shadow: 1px 1px 5px yellow;
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+.content-wrapper .sidebar-right {
+	background-color: lightseagreen;
+	float: right;
+	height: 100%;
+	width: 10%;
+}
+.content-wrapper .sidebar-right .my-picture {
+	border-radius: 50%;
+    background-image: url("http://isauhm.com/wp-content/uploads/2014/10/violet-vector-leaves-circles-backgrounds-for-powerpoint.jpg");
+	padding: 20px;
+    margin: 30px 15px 0 15px;	
+    width: 25px;
+    height: 25px;
+	background-size:cover;
+	
+	
+	
+}
+
+
+.content-wrapper {
+	height: 100%;
+}
+
+/***************/
+/* FOOTER ZONE */
+/***************/
+
+.footer {
+	background-color: lightsalmon;
+	clear: both;
+}
