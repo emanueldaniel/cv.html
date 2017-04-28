@@ -62,7 +62,12 @@ html, body{
 	margin-top:20px;
 	text-shadow: 1px 1px 5px yellow;
 	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	
+
+}
+
+.content-wrapper .content-main p {
+	font-family: Dancing Script;
+	font-size: 24px;
 }
 
 .content-wrapper .sidebar-right {
@@ -70,6 +75,15 @@ html, body{
 	float: right;
 	height: 100%;
 	width: 10%;
+}
+content-wrapper .sidebar-right p{
+	 
+	 text-overflow: ellipsis;
+	 width: 20px;
+	 overflow:hidden;
+	 white-space:normal;
+	 height:50px;
+	 line-height:15px;
 }
 .content-wrapper .sidebar-right .my-picture {
 	border-radius: 50%;
@@ -79,9 +93,15 @@ html, body{
     width: 25px;
     height: 25px;
 	background-size:cover;
-	
-	
-	
+
+}
+
+.content-wrapper .sidebar-right .my-picture:hover{
+transform: translate(5px, -5px);
+transition: all 1s ease;
+transform: rotate(50deg);
+transform: scale(1, 1);
+
 }
 
 
